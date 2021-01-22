@@ -1,19 +1,15 @@
-function array(count) {
+function countTo(count) {
   let input=[];
   for (let i=0; i<=count; i+=1) {
-  input+=i++;
+  input+=i;
   }
 }
 
-
-
-
-
-// $(document).ready.function() {
-//   $("input").submit(function(event) {
-//   event.preventDefault();
-//   newUserInput($("input#userInput").val()
-//   alert("Success!")
-//   });
-// });
+$(document).ready.function() {
+  $("#input").submit(function(event) {
+  event.preventDefault();
+  countTo(parseInt($("input#userInput").val()))
+  alert("Success!")
+  });
+});
 
