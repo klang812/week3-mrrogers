@@ -1,1 +1,2 @@
 researching making first array array to work by counting (0 to userInput)
+as a quick heads up this week has been a real struggle, still working on first text to count to user input

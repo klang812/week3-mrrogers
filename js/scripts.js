@@ -1,13 +1,19 @@
-$(document).ready.function(){
-  $("input").submit(function(event)
-  event.preventDefault();
-  ($("input#userInput").val()
-  alert("BeepBoop!");
-});
-
-function sorry(countTo) {
-  newUserInput;
-  for (let i=0; i<=countTo; i++) {
-  newUserInput+=i;
+function array(count) {
+  let input=[];
+  for (let i=0; i<=count; i+=1) {
+  input+=i++;
   }
 }
+
+
+
+
+
+// $(document).ready.function() {
+//   $("input").submit(function(event) {
+//   event.preventDefault();
+//   newUserInput($("input#userInput").val()
+//   alert("Success!")
+//   });
+// });
+
