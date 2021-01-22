@@ -2,3 +2,4 @@ researching making first array array to work by counting (0 to userInput)
 as a quick heads up this week has been a real struggle, still working on first text to count to user input
 for some reason an error continues to kick back regarding my html script for js/scripts.js
 i am still dealing with the above issues with no end in sight. not sure what to do.
+sorry but i have to walk away for a minute to collect my thoughts this is very frustrating.  
