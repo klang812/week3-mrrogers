@@ -1,0 +1,1 @@
+researching making first array array to work by counting (0 to userInput)
