@@ -1,0 +1,13 @@
+researching making first array array to work by counting (0 to userInput)
+as a quick heads up this week has been a real struggle, still working on first text to count to user input
+for some reason an error continues to kick back regarding my html script for js/scripts.js
+i am still dealing with the above issues with no end in sight. not sure what to do.
+sorry but i have to walk away for a minute to collect my thoughts this is very frustrating.  
+this is actually to the point of embarrassing still cannot figure out why my basic website continues to error at js/scripts.js (11:10am) and cant even count to 10...
+It appears I cannot seem to shake this thing and have tried for the last 5 hours to fix the error of my scripts in the live server.  
+I am sure this is something i am missing but i think i need to step away from this for a while and start again later tonight and/or over the weekend.
+Will be very honest this week was a big struggle and finished only 1 project this week, the count up project on Tue(finished yesterday afternoon)
+I need help for sure may need to console with YouTube this weekend as well to get some knowledge of what I am doing wrong and get more comforable.
+So for the last 3 hours plus finally got my scripts to work and am now finally able to work a little on the project itself.
+I apologize for all of the entries, unbelievably frustrating and quite frankly a little demoralizing.
+I am pushing what I have for now and am still working to get the counting function to work the way it needs to.
