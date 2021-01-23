@@ -27,7 +27,10 @@ function countTo(count) {
           //update number
         } 
         else if (singleDigit === "2") {
-          subNumber = "Boop!"
+          subNumber = "Boop!";
+        }
+        else if (singleDigit === "1") {
+          subNumber = "Beep!";
         }
         
       }
