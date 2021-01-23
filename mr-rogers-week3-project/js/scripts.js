@@ -8,10 +8,36 @@ $(document).ready(function() {
 
 function countTo(count) {
   let number=[];
-  console.log("count: " + count)
-  for (let i=0; i<=count; i++) {
-    console.log("i " + i);
-    number += i;
-  }
+  for (let outerLoopNumber=0; outerLoopNumber<=count; outerLoopNumber++) {
+    let outerLoopNumberAsString = outerLoopNumber.toString()
+    console.log("outer log loop number " + outerLoopNumberAsString);
+    //10 -> "10"
+    //outer log loop number 10
+    let subNumber = "";
+      for (let indexOfOuterLoopNumber=0; indexOfOuterLoopNumber<=outerLoopNumberAsString.length-1; indexOfOuterLoopNumber++) {
+        
+        //if inner loop number is 3 then add Wont you be my neighbor to number
+        // console.log("inner log loop number " + outerLoopNumberAsString[indexOfOuterLoopNumber]);
+        let singleDigit = outerLoopNumberAsString.charAt(indexOfOuterLoopNumber)
+        console.log("inner log loop number " + outerLoopNumberAsString.charAt(indexOfOuterLoopNumber));
+        if (singleDigit === "3") {
+          console.log("single");
+          subNumber = "Won't you be my neighbor?";
+          
+          //update number
+        } 
+        
+      }
+      if (subNumber === "") {
+        number += outerLoopNumberAsString;
+      
+      }
+      else {number+=subNumber}
+      // number += outerLoopNumber;
+    }
+
+
+
+  console.log(number);
   return number;
 }
