@@ -7,10 +7,12 @@ specs
    Test: "replace any numbers containing the integer 3 with string "Won't you be my neighbor"
    Expect(if #3.toEqual("Won't you be my neighbor?"));
 
+3. Describe:  countTo(count)
+    Test:  "eplace any numbers containing the integer 3 with string "Boop!"
+    Expect(if #2.toEqual("Boop!"));
 
 
 
-3.else if #2.toEqual("Boop!")
-4.else if #1.toEqual("Beep!")
+    e if #1.toEqual("Beep!")
 5. else.toEqual("Don't worry we can still be friends!")
 
