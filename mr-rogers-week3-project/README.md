@@ -16,5 +16,5 @@ specs
     Expect(if #1.toEqual("Beep!));
 
     
-5. else.toEqual("Don't worry we can still be friends!")
+
 
