@@ -2,25 +2,27 @@ $(document).ready(function() {
   $("#input").submit(function(event) {
   event.preventDefault();
   const count = parseInt($("input#userInput").val());
-  $("#output").text(countTo(count));
+  $("#output1").text(countTo(count));
+  $("#output2").text(countTo(count).reverse());
   });
 });
 
 function countTo(count) {
   let number=[];
+  let userName=$("input#name").val();
   for (let outerLoopNumber=0; outerLoopNumber<=count; outerLoopNumber++) {
     let outerLoopNumberAsString = outerLoopNumber.toString()
     let subNumber = "";
       for (let indexOfOuterLoopNumber=0; indexOfOuterLoopNumber<=outerLoopNumberAsString.length-1; indexOfOuterLoopNumber++) {
         let singleDigit = outerLoopNumberAsString.charAt(indexOfOuterLoopNumber)
         if (singleDigit === "3") {
-          subNumber = "Won't you be my neighbor?";
+          subNumber = "Won't you be my neighbor, " + userName + "?";
         } 
         else if (singleDigit === "2") {
-          subNumber = "Boop!";
+          subNumber = "Boop! ";
         }
         else if (singleDigit === "1") {
-          subNumber = "Beep!";
+          subNumber = "Beep! ";
         }
       }
       if (subNumber === "") {

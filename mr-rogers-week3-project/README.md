@@ -15,6 +15,4 @@ specs
     Test:  "replace any numbers containing integer 1 with string "Beep!"
     Expect(if #1.toEqual("Beep!));
 
-    
-
 
