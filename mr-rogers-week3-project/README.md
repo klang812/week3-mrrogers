@@ -42,6 +42,8 @@ _This project was intended to test my knowledge using loops, arrays, and testing
 * _CSS_
 * _JQuery_
 * _JavaScript_
+* _Bootstrap_
+* _MD_
 * _Github_
 
 ## Legal
