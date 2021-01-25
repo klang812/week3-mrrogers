@@ -17,11 +17,12 @@ function countTo(count) {
         let singleDigit = outerLoopNumberAsString.charAt(indexOfOuterLoopNumber)
         if (singleDigit === "3") {
           subNumber = "Won't you be my neighbor, " + userName + "?";
+          break;
         } 
-        else if (singleDigit === "2") {
+          else if (singleDigit === "2") {
           subNumber = "Boop! ";
         }
-        else if (singleDigit === "1") {
+        else if (singleDigit === "1" && subNumber === "") {
           subNumber = "Beep! ";
         }
       }

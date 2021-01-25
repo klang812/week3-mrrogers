@@ -24,15 +24,15 @@ _This project was intended to test my knowledge using loops, arrays, and testing
 
 * _Describe: countTo(count)_
    _Test: "replace any numbers containing the integer 3 with string "Won't you be my neighbor"_
-   _Expect(if #3.toEqual("Won't you be my neighbor?"));_
+   _Expect(string.includes(3).toEqual("Won't you be my neighbor?"));_
 
 * _Describe:  countTo(count)_
   _Test:  "replace any numbers containing the integer 2 with string "Boop!"_
-  _Expect(if #2.toEqual("Boop!"));_
+  _Expect(string.includes(2).toEqual("Boop!")&&!string.includes(3));_
 
 * _Describe: countTo(count)_
   _Test:  "replace any numbers containing integer 1 with string "Beep!"_
-  _Expect(if #1.toEqual("Beep!));_
+  _Expect(string.includes(1).toEqual("Beep!)&&!string.includes(3)&&!string.includes(2));_
 
 ## Known Bugs
 * _No known bugs at this time_
