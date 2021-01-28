@@ -13,11 +13,10 @@ function countTo(count) {
   for (let outerLoopNumber=0; outerLoopNumber<=count; outerLoopNumber++) {
     let outerLoopNumberAsString = outerLoopNumber.toString()
     let subNumber = "";
-      for (let indexOfOuterLoopNumber=0; indexOfOuterLoopNumber<=outerLoopNumberAsString.length-1; indexOfOuterLoopNumber++) {
-        let singleDigit = outerLoopNumberAsString.charAt(indexOfOuterLoopNumber)
+      for (let index=0; index<=outerLoopNumberAsString.length-1; index++) {
+        let singleDigit = outerLoopNumberAsString.charAt(index)
         if (singleDigit === "3") {
           subNumber = "Won't you be my neighbor, " + userName + "?";
-          break;
         } 
           else if (singleDigit === "2") {
           subNumber = "Boop! ";
