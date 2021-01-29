@@ -29,7 +29,10 @@ _This project was intended to test my knowledge using loops, arrays, and testing
   _Expect((2).toEqual("Boop!"));_
 
 * _Test:  "replace any numbers containing integer 1 with string "Beep!"_
-  _Expect((1).toEqual("Beep!);_
+  _Expect((1).toEqual("Beep!");_
+
+* _Test:  "priority of number 3 over number 2, will return string "Won't you be my neighbor"_
+  _Expect((13).toEqual("0,Beep! ,Boop! ,Won't you be my neighbor, Kerry Lang?,4,5,6,7,8,9,Beep! ,Beep! ,Boop! ,Won't you be my neighbor, Kerry Lang?")_
 
 ## Known Bugs
 * _No known bugs at this time_
